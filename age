@@ -1,0 +1,29 @@
+Age = int(input("enter your age"))
+if Age >= 10 and Age <= 20:
+ print("your age is between 10 and 20")
+ if Age == 10:
+  print("you are 10")
+ if Age == 11:
+  print("you are 11")
+ if Age == 12:
+  print("you are 12")
+ if Age == 13:
+  print("you are 13")
+ if Age == 14:
+  print("you are 14")
+ if Age == 15:
+  print("you are 15")
+ if Age == 16:
+  print("you are 16")
+ if Age == 17:
+  print("you are 17")
+ if Age == 18:
+  print("you are 18")
+ if Age == 19:
+  print("you are 19")
+ if Age == 20:
+  print("you are 20")
+  
+
+else:
+ print("your age is not between 10 and 20")
