@@ -1,0 +1,20 @@
+units = int(input("Enter how many units you consumed:"))
+
+if ( units < 50):
+ amount = units * 2.60
+ subchrage = 25
+
+elif ( units <= 100):
+ amount = 130 + ((units - 50)* 3.25)
+ subchrage = 35
+
+elif(units <= 200):
+ amount = 130 + 162.50 + ((units - 100) * 5.26)
+ subchrage = 45
+
+else:
+ amount = 130 + 162.50 + 526 + ((units - 200) * 8.45)
+ subchrage = 75
+
+total = amount + subchrage
+print("\n electricity bill = %.2f" %total)
